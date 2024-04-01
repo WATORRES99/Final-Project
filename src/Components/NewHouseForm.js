@@ -4,7 +4,7 @@ export const NewHouseForm = (props) => {
     const [name, setName] = useState('');
 
     const onSubmit = (e) => {
-        e.preventDefault(); // Corrected spelling
+        e.preventDefault(); 
         if (name) {
             props.addNewHouse({ name });
             setName('');

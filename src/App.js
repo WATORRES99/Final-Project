@@ -6,7 +6,7 @@ import {
   Link
 } from 'react-router-dom';
 import { HousesList } from './Components/HousesList';
-import LoginForm from './Components/LogIn'; // Import LoginForm component
+import LoginForm from './Components/LogIn'; 
 import Display from './Components/FinalDisplay';
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            
+
             <Link to="/housemodels">House Models</Link>
           </li>
           <li>

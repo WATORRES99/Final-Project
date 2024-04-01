@@ -6,7 +6,7 @@ const LoginForm = ({ onLogin }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Basic validation, you can add more checks as needed
+   
     if (!email || !password) {
       alert("Please fill in all fields");
       return;
